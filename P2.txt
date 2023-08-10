@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Enter your Name:"
+
+read Name
+
+day=$(date +"%A")
+
+echo "Hello, $Name! Happy $day! "
